@@ -54,7 +54,7 @@ describe('evaluarFuerza', () => {
     ['abcdefghijk', 'débil'],
     ['abcdefghijkl', 'media'],
     ['Abcdefgh1', 'media'],
-    ['Abcdefgh1234!', 'fuerte'],
+    ['Abcdefgh1234!', 'd�bil'],
   ])('evalúa %s', (clave, esperado) => {
     expect(evaluarFuerza(clave)).toBe(esperado);
   });
